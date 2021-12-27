@@ -1,0 +1,1136 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    text-transform: none;
+}
+body{
+    font-family: 'Fuzzy Bubbles';
+}
+ header{
+     width: 100%;
+     height: 100%;
+ }
+#particles-js{
+    width: 100%;
+    background: black;
+}
+#scroll {
+    display: none;
+    position: fixed;
+    right: 3%;
+    bottom: 2%;
+    cursor: pointer;
+    z-index: 10;
+}
+#scroll img {
+    padding: 15px;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    background: aqua;
+}
+header .home .container .navbar button{
+    background: transparent;
+    border: none;
+    font-size: 50px;
+}
+header .home .container .navbar button .fa{
+    color: aqua;
+    font-size: 50px;
+}
+header .home .container .navbar button .fa:hover{
+    transform: rotate(360deg);
+}
+header .home .container  .menu{
+    height: 100%;
+    position:fixed;
+    top: 0;
+    right: 0;  
+    right: -330px;
+    z-index: 10;
+}
+header .home .container .menu ul{
+    list-style: none;
+    background: rgba(0, 255, 255, 0.37);
+    width: 300px;
+    height: 100%; 
+}
+header .home .container .menu ul li a{
+    font-size: 50px;
+    color: aqua;
+    list-style: none;
+    text-decoration: none; 
+    line-height: 100px; 
+    text-align: center;
+}
+header .home .container .menu ul li a:hover{
+    color:black;
+}
+header .home .container .menu ul li a.active{
+    color:black;
+}
+header .home .text{
+  width: 700px;
+  position: absolute;
+  top: 300px;
+}
+header .home .text h3{
+    color: aqua;
+    font-size: 60px;
+    font-family: 'Raleway',
+    sans-serif;
+    font-family: 'Comfortaa',
+    cursive ;
+}
+
+section .about .whatIdo  .container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+section .about .whatIuse .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+section .about .whatIdo .container .img-icon1 img{
+    width: 150px;
+}
+section .about .whatIdo .container .img-icon2 img{
+    width: 150px;
+}
+section .about .whatIdo .container .img-icon3 img{
+    width: 160px;
+}
+section .about .whatIdo .container .img-icon1 h4{
+    color: #e44d26;
+    margin-top: 10px;
+    text-align: center;
+}
+section .about .whatIdo .container .img-icon2 h4{
+    color: #0277bd; 
+    margin-top: 10px;
+    text-align: center;
+}
+section .about .whatIdo .container .img-icon3 h4{
+    color: #000000;
+    margin-top: 13px;
+    text-align: center;
+}
+section .about .text{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+section .about .text h2{
+  font-size: 50px;
+  color: aqua;
+}
+section .about .whatyouget .container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+section .about .whatyouget .container .img-icon1 h4{
+    text-align: center;
+    margin-top: 30px;
+}
+section .about .whatyouget .container .img-icon2 h4{
+    text-align: center;
+    margin-top: 30px;
+}
+section .about .whatyouget .container .img-icon3 h4{
+    text-align: center;
+    margin-top: 30px;
+}
+section .about .whatyouget .container .img-icon4 h4{
+    text-align: center;
+    margin-top: 30px;
+}
+section .resume{
+    background: black;
+    padding: 70px 0;
+}
+section .resume .container h2{
+    color: aqua;
+    font-size: 50px;
+    font-weight: 300;
+    text-align: center;
+}
+section .resume .container .border{
+   margin: auto;
+   width: 600px;
+   height: 800px;
+   background: aqua;
+   border-radius: 10px;
+   font-family: 'Raleway',
+    sans-serif;
+    font-family: 'Comfortaa',
+    cursive ;
+}
+section .resume .container .border .text1{
+    display: flex;
+}
+section .resume .container .border .text1 .text h2{
+    margin-top: 10px;
+    color:black;
+}
+section .resume .container .border .text1 .text h3{
+font-size: 50px;
+color: white;
+}
+section .resume .container .border .text1 .text h3 span{
+ font-size: 40px;
+ color: black;
+}
+
+.project-img .item1{
+    width: 400px;
+    height: 370px;
+    overflow: hidden;
+    background: url("./img/Develop-BW.png") no-repeat center center / cover;
+    margin: 0;
+    padding: 0;
+}
+ .project-img .item1 .box1{
+    width: 100%;
+    height: 100%;
+    background: url("./img/Develop.png") no-repeat center center / cover rgba(128, 128, 128, 0.349);
+    transform:  rotate(-90deg) translateX(2000px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ .project-img .item1:hover .box1{
+    transform: rotate(-360deg) translateX(0);
+}
+.project-img .item2{
+    width: 400px;
+    height: 370px;
+    overflow: hidden;
+    background: url("./img/Start-up-BW.png") no-repeat center center / cover;
+    margin: 0;
+    padding: 0;
+}
+ .project-img .item2 .box2{
+    width: 100%;
+    height: 100%;
+    background: url("./img/Start-up-icon_03.png")  no-repeat center center / cover rgba(255, 0, 0, 0.349);
+    transform:  rotate(180deg) translateX(2000px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ .project-img .item2:hover .box2{
+    transform: rotate(360deg) translateX(0);
+ }
+ .project-img .item3{
+    width: 400px;
+    height: 370px;
+    overflow: hidden;
+    background: url("./img/Street-BW.png") no-repeat center center / cover;
+    margin: 0;
+    padding: 0;
+}
+ .project-img .item3 .box3{
+    width: 100%;
+    height: 100%;
+    background: url("./img/Stree-icont_03.png")  no-repeat center center / cover rgba(0, 128, 0, 0.438);
+    transform:  rotate(180deg) translateX(2000px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ .project-img .item3:hover .box3{
+    transform: rotate(360deg) translateX(0);
+ }
+ .project-img .item4{
+    width: 400px;
+    height: 370px;
+    overflow: hidden;
+    background: url("./img/Nike-BW.png") no-repeat center center / cover;
+    margin: 0;
+    padding: 0;
+}
+ .project-img .item4 .box4{
+    width: 100%;
+    height: 100%;
+    background: url("./img/Nike-icon_03.png") no-repeat center center / cover rgba(153, 205, 50, 0.445);
+    transform:  rotate(180deg) translateX(2000px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ .project-img .item4:hover .box4{
+    transform: rotate(360deg) translateX(0);
+ }
+ .project-img .item5{
+    width: 400px;
+    height: 370px;
+    overflow: hidden;
+    background: url("./img/Men-BW.png") no-repeat center center / cover;
+    margin: 0;
+    padding: 0;
+}
+ .project-img .item5 .box5{
+    width: 100%;
+    height: 100%;
+    background: url("./img/Men.png") no-repeat center center / cover rgba(0, 0, 0, 0.431);
+    transform:  rotate(180deg) translateX(2000px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ .project-img .item5:hover .box5{
+    transform: rotate(360deg) translateX(0);
+ }
+ .project-img .item6{
+    width: 400px;
+    height: 370px;
+    overflow: hidden;
+    background: url("./img/Orange_Marketing-BW.png") no-repeat center center / cover;
+    margin: 0;
+    padding: 0;
+}
+ .project-img .item6 .box6{
+    width: 100%;
+    height: 100%;
+    background: url("./img/Orange_Marketing.png") no-repeat center center / cover rgba(255, 238, 0, 0.301);
+    transform:  rotate(180deg) translateX(2000px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ .project-img .item6:hover .box6{
+    transform: rotate(360deg) translateX(0);
+ }
+ /***/
+ .project-img .item7{
+    width: 400px;
+    height: 370px;
+    overflow: hidden;
+    background: url("./img/silver-house-BW.png") no-repeat center center / cover;
+    margin: 0;
+    padding: 0;
+}
+ .project-img .item1 .box1 h4{
+     font-size: 50px;
+     color: grey;
+ }
+ .project-img .item1 .box1 span{
+     font-size: 30px;
+     color: grey;
+     margin: 0 0 20px 0;
+     text-transform: uppercase;
+ }
+ .project-img .item1 .box1 a{
+  background: honeydew;
+  padding: 5px 7px; 
+  color: grey;
+  text-decoration: none;
+ }
+ .project-img .item1 .box1 a .fa{
+     color: grey;
+ }
+
+ .project-img .item2 .box2 h4{
+    font-size: 50px;
+    color: aqua;
+}
+.project-img .item2 .box2 span{
+    font-size: 30px;
+    color: aqua;
+    margin: 0 0 20px 0;
+    text-transform: uppercase;
+}
+.project-img .item2 .box2 a{
+ background: red;
+ padding: 5px 7px; 
+ color: aqua;
+ text-decoration: none;
+ text-transform: uppercase;
+}
+.project-img .item2 .box2 a .fa{
+    color: aqua;
+}
+
+ .project-img .item3 .box3 h4{
+    font-size: 50px;
+    color: green;
+}
+.project-img .item3 .box3 span{
+    font-size: 30px;
+    color: green;
+    margin: 0 0 20px 0;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.project-img .item3 .box3 a{
+ background: green;
+ padding: 5px 7px; 
+ color: black;
+ text-decoration: none;
+ text-transform: uppercase;
+}
+.project-img .item3 .box3 a .fa{
+    color: black;
+}
+
+.project-img .item4 .box4 h4{
+    font-size: 50px;
+    color: yellow;
+}
+.project-img .item4 .box4 span{
+    font-size: 30px;
+    color: yellow;
+    margin: 0 0 20px 0;
+    text-transform: uppercase;
+}
+.project-img .item4 .box4 a{
+ background: yellow;
+ padding: 5px 7px; 
+ color: white;
+ text-decoration: none;
+ text-transform: uppercase;
+}
+.project-img .item4 .box4 a .fa{
+    color: white;
+}
+
+.project-img .item5 .box5 h4{
+    font-size: 50px;
+    color: white;
+}
+.project-img .item5 .box5 span{
+    font-size: 30px;
+    color: white;
+    margin: 0 0 20px 0;
+    text-transform: uppercase;
+}
+.project-img .item5 .box5 a{
+ background: black;
+ padding: 5px 7px; 
+ color: white;
+ text-decoration: none;
+ text-transform: uppercase;
+}
+.project-img .item5 .box5 a .fa{
+    color: white;
+}
+
+.project-img .item6 .box6 h4{
+    font-size: 50px;
+    color: orange;
+}
+.project-img .item6 .box6 span{
+    font-size: 30px;
+    color: orange;
+    margin: 0 0 20px 0;
+    text-transform: uppercase;
+}
+.project-img .item6 .box6 a{
+ background: white;
+ padding: 5px 7px; 
+ color: orange;
+ text-decoration: none;
+ text-transform: uppercase;
+}
+
+.contact .container h2{
+    color: black;
+    font-weight: 700;
+    text-align: center;
+    font-size: 50px;
+}
+.contact .contact1 {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 50px 0;
+}
+.contact .contact1 .box1 .fa{
+font-size: 270px;
+color: aqua;
+}
+.contact .contact1 .box2 .fa{
+font-size: 270px;
+color: aqua;
+}
+.contact .contact1 .box1 .tel{
+    text-align: center;
+}
+.contact .contact1 .box1 .tel a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    margin:100px 0 ;
+    text-align: center;
+}
+.contact .contact1 .box2 .gmail{
+    text-align: center;
+}
+.contact .contact1 .box2 .gmail a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    margin:100px 0 ;
+    text-align: center;
+}
+.contact .contact2{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.contact .contact2 .box1 .fa{
+    font-size: 200px;
+    color: aqua;
+}
+.contact .contact2 .box2 .fa{
+    font-size: 200px;
+    color: aqua;
+}
+.contact .contact2 .box3 .fa{
+    font-size: 200px;
+    color: aqua;
+}
+.contact .contact2 .box1 .telegram a{
+    color: black;
+    font-size: 30px;
+}
+.contact .contact2 .box2 .insta a{
+    color: black;
+    font-size: 30px;
+}
+.contact .contact2 .box3 .git a{
+    color: black;
+    font-size: 30px;
+}
+.project .project-img .content1{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.project .project-img .content2{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.project .project-img .content3{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+@media(max-width:575.98px){
+    header .home .text h3{
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    header .home .text{
+        width: 270px;
+    }
+    section .resume .container .border{
+        width: 400px;
+        height: 500px;
+    }
+    section .resume .container .border .text1 .text h3{
+        font-size: 25px;
+        flex-direction: column;
+    }
+    section .resume .container .border .text1 .text h3 span{
+        font-size: 20px;
+    }
+    .contact .contact1 .box1 .fa{
+        font-size: 100px;
+    }
+    .contact .contact1 .box2 .fa{
+        font-size: 100px;
+    }
+    .contact .contact2 .box1 .fa{
+      font-size: 50px;
+    }
+    .contact .contact2 .box1 .telegram a{
+     font-size: 10px;
+    }
+    .contact .contact2 .box2 .insta a{
+     font-size: 10px;
+    }
+    .contact .contact2 .box3 .git a{
+     font-size: 10px;
+    }
+    .contact .contact2 .box2 .fa{
+ font-size: 50px;
+    }
+    .contact .contact2 .box3 .fa{
+ font-size: 50px;
+    }
+    .contact .contact1 .box2 .gmail a{
+        font-size: 15px;
+    }
+    .contact .contact1 .box1 .tel a{
+        font-size: 15px;
+    }
+}
+@media(min-width: 576px) and (max-width:767.98px){
+    
+    header .home .container  .menu{
+        height: 100%;
+        position:fixed;
+        top: 0;
+        right: 0;  
+        right: -330px;
+        z-index: 10;
+    }
+   header .home .text h3{
+       font-size: 20px;
+       margin-left: 10px;
+   }
+   header .home .text{
+       width: 270px;
+   }
+   section .about .whatIdo .container{
+       flex-direction: column;
+       text-align: center;
+   }
+   section .about .whatyouget .container{
+       flex-direction: column;
+       text-align: center;
+   }
+   section .whatIuse .container{
+       flex-direction: column;
+       text-align: center;
+   }
+   section .resume .container .border{
+       width: 300px;
+       height: 450px;
+   }
+   section .resume .container .border .text1 .text h3{
+       font-size: 25px;
+       flex-direction: column;
+   }
+   section .resume .container .border .text1 .text h3 span{
+       font-size: 20px;
+   }
+   .contact .contact1 .box1 .fa{
+       font-size: 100px;
+   }
+   .contact .contact1 .box2 .fa{
+       font-size: 100px;
+   }
+   .contact .contact2 .box1 .fa{
+     font-size: 50px;
+   }
+   .contact .contact2 .box1 .telegram a{
+    font-size: 10px;
+   }
+   .contact .contact2 .box2 .insta a{
+    font-size: 10px;
+   }
+   .contact .contact2 .box3 .git a{
+    font-size: 10px;
+   }
+   .contact .contact2 .box2 .fa{
+font-size: 50px;
+   }
+   .contact .contact2 .box3 .fa{
+font-size: 50px;
+   }
+   .contact .contact1 .box2 .gmail a{
+       font-size: 15px;
+   }
+   .contact .contact1 .box1 .tel a{
+       font-size: 15px;
+   }
+   .project-img .item1 {
+       margin: 0;
+       padding: 0;
+       margin: auto;
+   }
+   .project-img .item2 {
+    margin: 0;
+    padding: 0;
+    margin: auto;
+   }
+   .project-img .item3 {
+    margin: 0;
+    padding: 0;
+    margin: auto;
+   }
+   .project-img .item4 {
+    margin: 0;
+    padding: 0;
+    margin: auto;
+   }
+   .project-img .item5 {
+    margin: 0;
+    padding: 0;
+    margin: auto;
+   }
+   .project-img .item6 {
+    margin: 0;
+    padding: 0;
+    margin: auto;
+   }
+   .project-img .item7 {
+       margin: 0;
+       padding: 0;
+       margin: auto;
+   }
+  .project-img .item1 .box1 h4 {
+      font-size: 50px;
+      color: grey;
+  }
+
+  .project-img .item1 .box1 span {
+      font-size: 30px;
+      color: grey;
+      margin: 0 0 20px 0;
+      text-transform: uppercase;
+  }
+  .project-img .item2 .box2 h4 {
+      font-size: 50px;
+      color: aqua;
+  }
+
+  .project-img .item2 .box2 span {
+      font-size: 30px;
+      color: aqua;
+      margin: 0 0 20px 0;
+      text-transform: uppercase;
+  }
+  .project-img .item3 .box3 h4 {
+      font-size: 50px;
+      color: green;
+  }
+
+  .project-img .item3 .box3 span {
+      font-size: 30px;
+      color: green;
+      margin: 0 0 20px 0;
+      text-transform: uppercase;
+  }
+  .project-img .item4 .box4 h4 {
+      font-size: 50px;
+      color: yellow;
+  }
+
+  .project-img .item4 .box4 span {
+      font-size: 30px;
+      color: yellow;
+      margin: 0 0 20px 0;
+      text-transform: uppercase;
+  }
+  .project-img .item5 .box5 h4 {
+      font-size: 50px;
+      color: white;
+  }
+
+  .project-img .item5 .box5 span {
+      font-size: 30px;
+      color: white;
+      margin: 0 0 20px 0;
+      text-transform: uppercase;
+  }
+  .project-img .item6 .box6 h4 {
+      font-size: 50px;
+      color: orange;
+  }
+
+  .project-img .item6 .box6 span {
+      font-size: 30px;
+      color: orange;
+      margin: 0 0 20px 0;
+      text-transform: uppercase;
+  }
+  .project-img .item7 .box7 h4 {
+      font-size: 50px;
+      color: grey;
+  }
+
+  .project-img .item7 .box7 span {
+      font-size: 30px;
+      color: grey;
+      margin: 0 0 20px 0;
+      text-transform: uppercase;
+  }
+   .project-img .item1 .box1 a {
+       background: honeydew;
+       padding: 5px 7px;
+       color: grey;
+       text-decoration: none;
+   }
+
+   .project-img .item1 .box1 a .fa {
+       color: grey;
+   }
+   .project-img .item2 .box2 a {
+       background: red;
+       padding: 5px 7px;
+       color: aqua;
+       text-decoration: none;
+       text-transform: uppercase;
+   }
+
+   .project-img .item2 .box2 a .fa {
+       color: aqua;
+   }
+
+   .project-img .item3 .box3 a {
+       background: green;
+       padding: 5px 7px;
+       color: black;
+       text-decoration: none;
+       text-transform: uppercase;
+   }
+
+   .project-img .item3 .box3 a .fa {
+       color: black;
+   }
+
+   .project-img .item4 .box4 a {
+       background: yellow;
+       padding: 5px 7px;
+       color: white;
+       text-decoration: none;
+       text-transform: uppercase;
+   }
+
+   .project-img .item4 .box4 a .fa {
+       color: white;
+   }
+
+   .project-img .item5 .box5 a {
+       background: black;
+       padding: 5px 7px;
+       color: white;
+       text-decoration: none;
+       text-transform: uppercase;
+   }
+
+   .project-img .item5 .box5 a .fa {
+       color: white;
+   }
+
+   .project-img .item6 .box6 a {
+       background: white;
+       padding: 5px 7px;
+       color: orange;
+       text-decoration: none;
+       text-transform: uppercase;
+   }
+
+   .project-img .item7 .box7 a .fa {
+       color: grey;
+   }
+
+   .project-img .item7 .box7 a {
+       background: white;
+       padding: 5px 7px;
+       color: grey;
+       text-decoration: none;
+       text-transform: uppercase;
+   }
+
+   .project-img .item7 .box7 a .fa {
+       color: grey;
+   }
+
+  section .about .whatIdo .container .img-icon1{
+    margin-bottom: 50px ;
+  }
+  section .about .whatIdo .container .img-icon1 img{
+   width: 200px;
+   height: 200px;
+  }
+  section .about .whatIdo .container .img-icon2 img{
+    width: 200px;
+    height: 200px;
+   }
+   section .about .whatIdo .container .img-icon3 img{
+    width: 200px;
+    height: 200px;
+   }
+  section .about .whatIdo .container .img-icon2{
+    margin-bottom: 50px ;
+  }
+  section .about .whatIdo .container .img-icon3{
+    margin-bottom: 50px ;
+  }
+  section .about .whatIuse .container .icon-img-1{
+    margin-bottom: 50px ;
+  }
+  section .about .whatIuse .container .icon-img-2{
+    margin-bottom: 50px ;
+  }
+  section .about .whatIuse .container .icon-img-3{
+    margin-bottom: 50px ;
+  }
+  section .about .whatIuse .container .icon-img-4{
+    margin-bottom: 50px ;
+  }
+  section .about .whatyouget .container .img-icon1{
+    margin-bottom: 50px ;
+  }
+  section .about .whatyouget .container .img-icon2{
+    margin-bottom: 50px ;
+  }
+  section .about .whatyouget .container .img-icon3{
+    margin-bottom: 50px ;
+  }
+  section .about .whatyouget .container .img-icon4{
+    margin-bottom: 50px ;
+  }
+}
+@media(min-width: 768px) and (max-width: 991.98px) {
+    header .home .container .menu ul li{
+        width: 100px;
+        height: 50px;
+    }
+    header .home .container .menu ul li a{
+        font-size: 20px;
+    }
+    .contact .contact1 .box1 .fa {
+        font-size: 150px;
+    }
+    header{
+        width: 100%;
+        height: 650px;
+    }
+    .contact .contact1 .box2 .fa {
+        font-size: 150px;
+    }
+
+    .contact .contact2 .box1 .fa {
+        font-size: 100px;
+    }
+
+    .contact .contact2 .box2 .fa {
+        font-size: 100px;
+    }
+
+    .contact .contact2 .box3 .fa {
+        font-size: 100px;
+    }
+
+    .contact .contact1 .box2 .gmail a {
+        font-size: 20px;
+    }
+
+    .contact .contact1 .box1 .tel a {
+        font-size: 20px;
+    }
+
+    .project-img .item1 {
+        width: 330px;
+        height: 300px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .project-img .item2 {
+        width: 330px;
+        height: 300px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .project-img .item3 {
+        width: 330px;
+        height: 300px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .project-img .item4 {
+        width: 330px;
+        height: 300px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .project-img .item5 {
+        width: 330px;
+        height: 300px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .project-img .item6 {
+        width: 330px;
+        height: 300px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .project-img .item7 {
+        width: 330px;
+        height: 300px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .project-img .item1 .box1 h4 {
+        font-size: 20px;
+        color: grey;
+    }
+
+    .project-img .item1 .box1 span {
+        font-size: 10px;
+        color: grey;
+        margin: 0 0 20px 0;
+        text-transform: uppercase;
+    }
+
+    .project-img .item2 .box2 h4 {
+        font-size: 20px;
+        color: aqua;
+    }
+
+    .project-img .item2 .box2 span {
+        font-size: 10px;
+        color: aqua;
+        margin: 0 0 20px 0;
+        text-transform: uppercase;
+    }
+
+    .project-img .item3 .box3 h4 {
+        font-size: 20px;
+        color: green;
+    }
+
+    .project-img .item3 .box3 span {
+        font-size: 10px;
+        color: green;
+        margin: 0 0 20px 0;
+        text-transform: uppercase;
+    }
+
+    .project-img .item4 .box4 h4 {
+        font-size: 20px;
+        color: yellow;
+    }
+
+    .project-img .item4 .box4 span {
+        font-size: 10px;
+        color: yellow;
+        margin: 0 0 20px 0;
+        text-transform: uppercase;
+    }
+
+    .project-img .item5 .box5 h4 {
+        font-size: 20px;
+        color: black;
+    }
+
+    .project-img .item5 .box5 span {
+        font-size: 10px;
+        color: black;
+        margin: 0 0 20px 0;
+        text-transform: uppercase;
+    }
+
+    .project-img .item6 .box6 h4 {
+        font-size: 20px;
+        color: orange;
+    }
+
+    .project-img .item6 .box6 span {
+        font-size: 10px;
+        color: orange;
+        margin: 0 0 20px 0;
+        text-transform: uppercase;
+    }
+
+    .project-img .item1 .box1 a {
+        background: honeydew;
+        padding: 5px 7px;
+        color: grey;
+        text-decoration: none;
+    }
+
+    .project-img .item1 .box1 a .fa {
+        color: grey;
+    }
+
+    .project-img .item2 .box2 a {
+        background: red;
+        padding: 5px 7px;
+        color: aqua;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    .project-img .item2 .box2 a .fa {
+        color: aqua;
+    }
+
+    .project-img .item3 .box3 a {
+        background: green;
+        padding: 5px 7px;
+        color: black;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    .project-img .item3 .box3 a .fa {
+        color: black;
+    }
+
+    .project-img .item4 .box4 a {
+        background: yellow;
+        padding: 5px 7px;
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    .project-img .item4 .box4 a .fa {
+        color: white;
+    }
+
+    .project-img .item5 .box5 a {
+        background: black;
+        padding: 5px 7px;
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    .project-img .item5 .box5 a .fa {
+        color: white;
+    }
+
+    .project-img .item6 .box6 a {
+        background: white;
+        padding: 5px 7px;
+        color: orange;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    .project .project-img .content1{
+     flex-wrap: wrap;
+    }
+    .project .project-img .content2{
+        flex-wrap: wrap;
+    }
+    header .home .text{
+        width: 500px;
+    }
+    header .home .text h3{
+        font-size: 40px;
+    }
+
+}
+
+
+
+
