@@ -74,9 +74,9 @@ header .home .text{
   position: absolute;
   top: 300px;
 }
-header .home .text h1{
+header .home .text h3{
     color: aqua;
-    font-size: 60px;
+    font-size: 20px;
     font-family: 'Raleway',
     sans-serif;
     font-family: 'Comfortaa',
